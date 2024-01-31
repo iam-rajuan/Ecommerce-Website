@@ -74,12 +74,12 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
-    background: #088178;
+    position: absolute;
     content: '';
+    background: #088178;
     width: 30%;
     height: 2px;
-
     bottom: -4px;
     left: 20px;
-    position: absolute;
+
 }
